@@ -8,7 +8,7 @@ const pi = 3.1416;
 const saludo = "Hola";
 const edad = 25;
 
-const persona = {nmobre: "Ana", edad: 30};
+const persona = {nombre: "Ana", edad: 30};
 
 /* No podemos cambiar el valor de una constante: NO podríamos hacer
         pi = 3;
