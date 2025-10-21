@@ -4,7 +4,7 @@ const data = require('./data');
 
 describe('Zoo', function() {
   describe('#entryCalculator()', function() {
-    it.only('returns 0 if no arguments passed in', function() {
+    it('returns 0 if no arguments passed in', function() {
       //console.log(data.animals.map(console.log));
       const actual = zoo.entryCalculator();
       assert.equal(actual, 0);
