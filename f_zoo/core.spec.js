@@ -234,6 +234,7 @@ describe('Zoo', function() {
     });
   });
 
+  
   describe('#animalByName()', function() {
     it('with no parameters, returns an empty object', function() {
       const actual = zoo.animalByName();
